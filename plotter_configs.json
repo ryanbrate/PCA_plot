@@ -1,0 +1,206 @@
+[   
+    {
+        "desc": "patient from n word , 1951",
+        "switch": false,
+        "vector_labels": "~/surfdrive/Data/exploreTuples/patient_1951_from_n_word_only/for_PCA_plot/1951_words.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/patient_1951_from_n_word_only",
+        "plot_size": 25
+    },
+    {
+        "desc": "agent from n word , 1951",
+        "switch": false,
+        "vector_labels": "~/surfdrive/Data/exploreTuples/agent_1951_from_n_word_only/for_PCA_plot/1951_words.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/agent_1951_from_n_word_only",
+        "plot_size": 25
+    },
+    {
+        "desc": "adj from n word , 1951",
+        "switch": false,
+        "vector_labels": "~/surfdrive/Data/exploreTuples/adj_1951_from_n_word_only/for_PCA_plot/1951_words.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/adj_1951_from_n_word_only",
+        "plot_size": 25
+    },
+    {
+        "desc": "bootstrapped nouns from n word, 1951",
+        "switch": false,
+        "vector_labels": "~/surfdrive/Data/exploreTuples/bootstrapped_nouns_from_n_word_1951/bootstrapped_nouns_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_nouns_from_n_word_1951",
+        "plot_size": 100
+    },
+    {
+        "desc": "context ngrams, average associations 1951",
+        "switch": false,
+        "vector_labels": "DATA/Colibri_Exploration/same_word&viewpoint_compare_times/51_91/average_early_associations.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 10,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/content_ngrams_average_associations_1951",
+        "plot_size": 100
+    },
+    {
+        "desc": "context ngrams, average association increases 1951 to 1991",
+        "switch": false,
+        "vector_labels": "DATA/Colibri_Exploration/same_word&viewpoint_compare_times/51_91/average_increases.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": -5,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/content_ngrams_average_association_increase__1951_to_1991",
+        "plot_size": 100
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from n word",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_n_word/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 10,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_n_word",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from probleem related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_probleem_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_probleem_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from area related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_area_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_area_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from subserviant related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_subservient_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_subservient_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from lang and culture related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_lang_and_culture_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_lang_and_culture_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from sports related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_sports_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_sports_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from jobs related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_jobs_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_jobs_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "bootstrapped prefixes 1951 from arts related suffices",
+        "switch": false,
+        "vector_labels": "DATA/morphology/bootstrapped_prefixes_1951_from_arts_related_suffices/bootstrapped_prefixes_binary_similarity.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": 1,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/bootstrapped_prefixes_1951_from_arts_related_suffices",
+        "plot_size": 50
+    },
+    {
+        "desc": "suffices with n-word 1951 only",
+        "switch": false,
+        "vector_labels": "DATA/morphology/suffices_1951_n_word_only/for_PCA_plot/1951_suffices.json",
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/suffices_1951_n_word_only",
+        "plot_size": 50
+    },
+    {
+        "desc": "example",
+        "switch": false,
+        "vector_labels": [
+            [
+                "meisje",
+                0
+            ],
+            [
+                "jongen",
+                0
+            ],
+            [
+                "schaap",
+                0
+            ],
+            [
+                "auto",
+                0
+            ],
+            [
+                "koe",
+                0
+            ],
+            [
+                "boerman",
+                0
+            ],
+            [
+                "fiest",
+                0
+            ]
+        ],
+        "vectors_fp": "DATA/GensimEmbeddings/1940s/model.bin",
+        "ignore_weights_less_than": null,
+        "ignore_weights_greater_than": null,
+        "loader": "loaders.gensim.Vectors",
+        "output_dir": "DATA/PCA_plot/example",
+        "plot_size": 50
+    }
+]
